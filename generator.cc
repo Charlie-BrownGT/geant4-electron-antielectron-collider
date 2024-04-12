@@ -10,20 +10,20 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 	G4ParticleDefinition *particle1 = particleTable->FindParticle("e+");
 	G4ParticleDefinition *particle2 = particleTable->FindParticle("e-");
 	
-	G4ThreeVector pos1(0., 0., -0.05);
+	G4ThreeVector pos1(0., 0., -0.1);
 	G4ThreeVector mom1(0., 0., 1.);
 	
-	G4ThreeVector pos2(0., 0., 0.05);
+	G4ThreeVector pos2(0., 0., 0.1);
 	G4ThreeVector mom2(0., 0., -1.);
 	
 	fParticleGun->SetParticlePosition(pos1);
 	fParticleGun->SetParticleMomentumDirection(mom1);
-	fParticleGun->SetParticleMomentum(100.*GeV);
+	fParticleGun->SetParticleMomentum(10.*MeV);
 	fParticleGun->SetParticleDefinition(particle1);
 	
 	gParticleGun->SetParticlePosition(pos2);
 	gParticleGun->SetParticleMomentumDirection(mom2);
-	gParticleGun->SetParticleMomentum(100.*GeV);
+	gParticleGun->SetParticleMomentum(10.*MeV);
 	gParticleGun->SetParticleDefinition(particle2);
 }
 
