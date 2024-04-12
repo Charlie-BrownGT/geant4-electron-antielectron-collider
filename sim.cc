@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	
 	UImanager->ApplyCommand("/vis/open OGL");
 	UImanager->ApplyCommand("/vis/drawVolume");
-	UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
+	UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 0");
 	UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
 	UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
 	UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");

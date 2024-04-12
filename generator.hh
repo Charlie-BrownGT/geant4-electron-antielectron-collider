@@ -16,6 +16,6 @@ public:
 	
 private:
 	G4ParticleGun *fParticleGun;
-	//G4ParticleGun *gParticleGun;
+	G4ParticleGun *gParticleGun;
 };
 #endif
