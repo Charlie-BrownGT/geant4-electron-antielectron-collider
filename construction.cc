@@ -18,9 +18,15 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 	mptWorld->AddProperty("RINDEX", energy, rindexWorld, 2);
 	worldMat->SetMaterialPropertiesTable(mptWorld);
 	
+	G4Material *U = nist->FindOrBuildMaterial("G4_U");
+	
 	G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
 	G4LogicalVolume *logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicWorld");
 	G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logicWorld, "physWorld", 0, false, 0, true);
+	
+	G4Box *solidUTarget = new G4Box("solidUTarget", 0.1*m, 0.1*m, 0.1*m);
+	G4LogicalVolume *logicUTarget = new G4LogicalVolume(solidUTarget, U, "logicUTarget");
+	G4VPhysicalVolume *physUTarget = new G4PVPlacement(0, G4ThreeVector(0., 0., 0.), logicUTarget, "physUTarget", 0, false, 0, true);
 	
 	return physWorld;
 }
