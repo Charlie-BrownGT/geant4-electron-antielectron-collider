@@ -6,7 +6,6 @@ MyPrimaryGenerator::MyPrimaryGenerator()
 	//gParticleGun = new G4ParticleGun(1);
 	
 	G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-	
 	G4ParticleDefinition *particle1 = particleTable->FindParticle("proton");
 	//G4ParticleDefinition *particle2 = particleTable->FindParticle("e-");
 	
@@ -35,7 +34,7 @@ MyPrimaryGenerator::~MyPrimaryGenerator()
 
 void MyPrimaryGenerator::GeneratePrimaries(G4Event *anEvent)
 {
-	G4ParticleDefinition *particle1 = fParticleGun->GetParticleDefinition();
+	//G4ParticleDefinition *particle1 = fParticleGun->GetParticleDefinition();
 	//G4ParticleDefinition *particle2 = gParticleGun->GetParticleDefinition();
 	
 	fParticleGun->GeneratePrimaryVertex(anEvent);
