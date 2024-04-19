@@ -637,7 +637,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UIsession.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4coutDestination.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4UIbatch.hh \
- /home/guy/geant4-electron-antielectron-collider/construction.hh \
+ /home/guy/geant4-electron-antielectron-collider/include/construction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4SystemOfUnits.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPhysicalVolume.hh \
@@ -651,7 +651,7 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4NistMaterialBuilder.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Pow.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4Exp.hh \
- /home/guy/geant4-electron-antielectron-collider/physics.hh \
+ /home/guy/geant4-electron-antielectron-collider/include/physics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4PhysicsListHelper.hh \
@@ -719,9 +719,9 @@ CMakeFiles/sim.dir/sim.cc.o: \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4EmStandardPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalPhysics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4OpticalParameters.hh \
- /home/guy/geant4-electron-antielectron-collider/action.hh \
+ /home/guy/geant4-electron-antielectron-collider/include/action.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/guy/geant4-electron-antielectron-collider/generator.hh \
+ /home/guy/geant4-electron-antielectron-collider/include/generator.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4ParticleGun.hh \
  /home/guy/software/geant4/geant4-v11.2.1-install/include/Geant4/G4VPrimaryGenerator.hh \
